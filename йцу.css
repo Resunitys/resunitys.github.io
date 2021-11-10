@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style: normal;
+	text-transform: none;
+	font-size: 20px;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+#img{
+	display: flex;
+	background: no-repeat url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
+	background-position:center;
+	background-size: cover;
+	text-align: center;
+	flex-flow: column;
+	height: 100vh;
+	/*padding-top: 330px;
+	padding-bottom: 355px;*/
+	justify-content: center;
+	align-items: center;
+	color:  #9e6429;
+}
+#img .button{
+	display: inline-block;
+	text-decoration: none;
+	border: solid 1px #9e6429;
+	border-radius: 13px;
+	padding: 10px 20px;
+	margin: 20px;
+	color: #9e6429;
+}
+#img .button:hover{
+	background-color: #9e6429;
+	color: #ffffff;
+}
+#img h1{
+	font-size: 50px;
+
+}
+.block-a{
+	background-color: #9e6429;
+	color: #fff;
+	padding: 20px 30px;
+	font-size: 17px;
+}
+.block-b{
+	background-color: #fff;
+	color: #9e6429;
+	padding: 20px 30px;
+	font-size: 17px;
+}
+.blocks{
+	display: flex;
+}
